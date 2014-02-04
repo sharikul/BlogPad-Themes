@@ -1,0 +1,14 @@
+{- GET 'includes/header' -}
+
+{- BEGIN POSTS -}
+    <article>
+        <h1>{- title -}</h1>
+        <p class="published">Published on the <time datetime="{- date: %date%-%month%-%year% -}">{- date: %date% -} of {- date: %month%, %year% -} </time>by {- author -}.</p>
+
+        <p>{- description -}</p>
+    </article>
+{- END POSTS -}
+
+{- GET 'includes/pagination' -}
+
+{- GET 'includes/footer' -}

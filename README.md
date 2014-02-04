@@ -14,6 +14,6 @@ In order for your theme to qualify to be a part of this repository, you must ens
 * **Last but not least** - there is a `struct.bpd` file present!
 
 ## Further assistance
-For further help with developing a theme, do take a look at the default BlogPad theme whose folder is present in this repository.
+For further help with developing a theme, do take a look at the default BlogPad theme whose folder is present in the `themes` directory of this repository.
 
 ## Happy theming!
