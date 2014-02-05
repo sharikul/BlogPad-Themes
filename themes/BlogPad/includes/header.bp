@@ -5,6 +5,13 @@
     <title>{- VAR title -}</title>
     <link rel="stylesheet" href="{- VAR stylesheet -}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+{- WHEN 'POST' -}
+    <meta name="description" content="{- metadata: description -}">
+{- ELSE -}
+    <meta name="description" content="{- metadata: blogdescription -}">
+{- END WHEN -}
+
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="{- VAR homepage -}/rss.php">
 </head>
     <body>
         <header>
